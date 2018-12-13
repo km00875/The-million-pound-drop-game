@@ -105,6 +105,7 @@ function playbutton1_CreateFcn(hObject, eventdata, handles)
 
 % --- Plays music
 [y,Fs]=audioread('Countdown.mp3');
+sound(y,Fs,16);
 
 % --- Executes on button press in playbutton1.
 function playbutton1_Callback(hObject, eventdata, handles)
